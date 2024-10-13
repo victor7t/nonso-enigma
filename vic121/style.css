@@ -1,0 +1,35 @@
+*{
+    background-color: aqua;
+}
+
+img{
+    height: 250px;
+    width: 250px;
+    margin-left: 50px;
+    float: left;
+}
+h1{
+    font-size: 60px;
+}
+
+p{
+    font-size: 20px;
+}
+
+@media(max-width:670px){
+    .logo{
+        width: 100px;
+    }
+
+    .h1{
+        font-size: 3.7px;
+        text-align: center;
+    }
+
+    .img{
+        width: 100%;
+        display: inline;
+        object-fit: cover;
+    }
+
+}
